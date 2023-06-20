@@ -6,20 +6,31 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ."
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@heroicons/react": "^1.0.6",
     "@types/node": "20.2.0",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "autoprefixer": "10.4.14",
-    "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
     "next": "13.4.2",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2",
+    "react-slick": "^0.29.0",
+    "tailwindcss": "^3.3.2",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@babel/helper-module-imports": "^7.21.4",
+    "@types/react-slick": "^0.23.10",
+    "babel-plugin-macros": "^3.1.0",
+    "eslint": "^8.41.0",
+    "eslint-plugin-react": "^7.32.2"
   }
 }
